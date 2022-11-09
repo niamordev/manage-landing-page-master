@@ -18,6 +18,10 @@ body{
     width: 100vw;
 }
 
+.overflow{
+    overflow-y: hidden;
+}
+
 h1{
     font-size: 44px;
     color: $DarkBlue;
