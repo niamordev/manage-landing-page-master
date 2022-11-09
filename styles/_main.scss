@@ -303,6 +303,11 @@ main{
 
 
 @media (min-width:800px) {
+	
+body{
+    overflow-y: visible !important;
+}
+
   .section-intro{
     display: flex;
     flex-direction: row-reverse;
