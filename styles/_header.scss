@@ -29,17 +29,15 @@ header{
 
 
     .nav-links-mobile{
-        transform: translateX(-100%);
         z-index: 1;
         background: linear-gradient( rgb(0, 0, 0, 0.05), rgb(0, 0, 0, 0.5)) ;
-        position: absolute;
+        position: fixed;
         width: 100vw;
-        height: 100vh;
+        height: 150vh;
         top: 0;
         left: 0;
         display: flex;
         justify-content: center;
-        transition: 0.3s;
 
         ul{
             background-color: white;
@@ -65,9 +63,7 @@ header{
         }
     }
 
-    .active-nav-mobile{
-        transform: translateX(0);
-    }
+
 }
 
 
