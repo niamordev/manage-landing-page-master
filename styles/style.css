@@ -11,6 +11,10 @@
   display: none;
 }
 
+.fixed{
+    overflow: hidden;
+}
+
 body {
   font-family: "Be Vietnam Pro", sans-serif;
   overflow-x: hidden;
@@ -241,17 +245,15 @@ header .desktop {
   display: none;
 }
 header .nav-links-mobile {
-  transform: translateX(-100%);
   z-index: 1;
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5));
-  position: absolute;
+  background: linear-gradient( rgb(0, 0, 0, 0.05), rgb(0, 0, 0, 0.5)) ;
+  position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   top: 0;
   left: 0;
   display: flex;
   justify-content: center;
-  transition: 0.3s;
 }
 header .nav-links-mobile ul {
   background-color: white;
@@ -271,9 +273,7 @@ header .nav-links-mobile ul li {
   font-size: 15px;
   margin: 15px auto 15px auto;
 }
-header .active-nav-mobile {
-  transform: translateX(0);
-}
+
 
 @media (min-width: 800px) {
   header .mobile {
