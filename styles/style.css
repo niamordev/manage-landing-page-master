@@ -266,12 +266,14 @@ header .nav-links-mobile ul {
   flex-direction: column;
   justify-content: center;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.068);
+  align-items: center;
+  
 }
 header .nav-links-mobile ul li {
   color: hsl(228deg, 39%, 23%);
   font-weight: bolder;
   font-size: 15px;
-  margin: 15px auto 15px auto;
+  margin: 15px 0;
 }
 
 
