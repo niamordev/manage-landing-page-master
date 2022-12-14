@@ -7,8 +7,8 @@ let activeNavMobile = document.querySelector('.active-nav-mobile')
 
 
 btnNavLinks.addEventListener('click', function(){
-    navLinks.classList.toggle('active-nav-mobile')
+    navLinks.classList.toggle('hidden')
     openNav.classList.toggle('hidden')
     closeNav.classList.toggle('hidden')
-    document.querySelector('body').classList.toggle('overflow')
+    document.body.classList.toggle('fixed')
 })
